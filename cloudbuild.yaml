@@ -17,7 +17,7 @@ steps:
 
 # Step 2
 # Publish the release
-  - name: 'gcr.io/cogent-mark-388017/cloud-sdk'
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: 'bash'
     args:
     - '-c'
