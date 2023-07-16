@@ -11,13 +11,13 @@ steps:
 
 # Step 1
 #push the previously built image to ythe docker repo created in Step 0
-  - name: 'gcr.io/cloud-builders/docker'
+  - name: 'gcr.io/cogent-mark-388017/docker'
     args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/microservices/microservice1']
 
 
 # Step 2
 # Publish the release
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  - name: 'gcr.io/cogent-mark-388017/cloud-sdk'
     entrypoint: 'bash'
     args:
     - '-c'
