@@ -16,4 +16,4 @@ metadata:
  name: qsprod
 description: production cluster
 gke:
- cluster: my-first-gke-cluster	
+ cluster: my-first-gke-cluster
